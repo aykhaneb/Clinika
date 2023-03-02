@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.padding{
+    padding: 15px 30px;
+}
+.appointment a{
+    color: black;
+    background-color: #fff;
+   border-radius: 25px;
+}
+.container h1{
+    font-size: 60px;
+    color: #fff;
+}
+.container p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 100%;
+}
+.first{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/09/bg_slider.jpg?id=21587);
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.text a{
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #38A9E0;
+    border-radius: 25px;
+    color: #fff;
+}
